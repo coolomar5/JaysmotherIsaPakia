@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main website!</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link href="website.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class = 'options'>
+            <div class="opt-wrapper">
+                <div class="slideer">
+                    <label for="width-range">  Grid width </label>
+                        <input type="range" id = 'width-range' min="1" max="35">
+                        <span id = "width-value">00</span>
+                    
+                </div>
+                <div class="slideer">
+                    <label for="height-range">  Grid height </label>
+                        <input type="range" id = 'height-range' min="1" max="35">
+                        <span id = "height-value">00</span>
+                    
+                </div>
+            </div>
+            <div class="opt-wrapper">
+                <button class = 'btn'id="submit-grid">Create Grid</button>
+                <button class = 'btn'id="clear-grid">Clear Grid</button>
+                <input type="color" id="color-input">
+                <button class = 'btn'id="erase-btn">Erase</button>
+                <button class = 'btn'id="paint-btn">Paint</button>
+            </div>
+            
+        </div>
+        <div class = 'container'></div>
+
+        </div>
+    </div>
+
+
+
+
+   
+    <nav class = 'sidebar'><div class="sidebar-inner"> 
+        <header class = 'sidebar-header'>
+            <button type="button" class="sidebar-burger" onclick="toggleSidebar()"><i class='bx bx-menu'></i></button>
+            <img src="BWC.png"  alt="" class="sidebar-logo">
+        </header>
+        <nav class="sidebar-menu">
+<button type="button">
+<i class='bx bxs-home'></i>
+<a href="website.html">Home</a>
+</button>
+<button type="button">
+    <i class='bx bx-user' ></i>
+    <a href="tetris.html">Tetris!</a>
+    </button>
+
+
+    <button type="button">
+        <i class='bx bx-popsicle' ></i>
+        <a href="">Accounts</a>
+        </button>
+        <button type="button">
+            <i class='bx bx-user' ></i>
+            <a href="xbox614.html">XboX614</a>
+            </button>
+            <button type="button">
+                <i class='bx bx-user' ></i>
+                <a href="ilostime.html">ILosTime</a>
+                </button>
+                <button type="button">
+                    <i class='bx bx-user' ></i>
+                    <a href="valaintcodex.html">ValiantCodex</a>
+                    </button>
+                    <button type="button">
+                        <i class='bx bx-user' ></i>
+                        <a href="itzczl.html">ItzCzl</a>
+                        </button>
+                        <button type="button">
+                            <i class='bx bx-user' ></i>
+                            <a href="d1.html">d1GmeAgilitySped</a>
+                            </button>
+                            <button type="button">
+                                <i class='bx bx-user' ></i>
+                                <a href="aaronngme.html">Aaronngme</a>
+                                </button>
+                                <button type="button">
+                                    <i class='bx bx-user' ></i>
+                                    <a href="at.html">Azuracy</a>
+                                    </button>
+                                    <button type="button">
+                                        <i class='bx bx-user' ></i>
+                                        <a href="fizz.html">fizzftb</a>
+                                        </button>
+                                        <button type="button">
+                                            <i class='bx bx-user' ></i>
+                                            <a href="dodo.html">DAZZOX</a>
+                                            </button>
+
+            <script src="js.js"></script>
+        
+       
+            
+
+
+        </nav>
+    </div>
+</nav>
+     
+  <script type="text/javascript">
+    const toggleSidebar = () => document.body.classList.toggle("open");
+  </script>
+</body>
+</html>
